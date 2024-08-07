@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encerramento.css">
+    <script src="encerramento.js"></script>
+    <title>Pagina Inicial</title>
+</head>
+<body>
+    <header>
+       <nav class="navbar">
+            <div class="logo">                
+                <img src="/imagens/bras-logo.png">
+            </div>
+                <div class="titulo">
+                    <title>Gerador de Script </title>
+                </div>
+            <div class="nav-links">
+                <a href="index.html">Início</a>                
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <main>
+        
+        <div class="container">
+            <h2>Gerador de Script de Resolução/Encaminhamento</h2>
+            <form id="script-form">
+                <label for="script-type">Tipo de Script:</label>
+                <select id="script-type" name="script-type" onchange="toggleFields()" required>
+                    <option value="encerramento">Encerramento</option>
+                    <option value="encaminhamento">Encaminhamento</option>
+                </select>
+
+                <label for="client-name">Nome do Cliente:</label>
+                <input type="text" id="client-name" name="client-name" required>
+
+                <label for="solicitacao">Solicitação</label>
+                <input type="text" id="solicitacao" name="Solicitacao" required>
+
+                
+
+                <div id="resolution-field">
+                    <label for="resolution">Resolução:</label>
+                    <textarea id="resolution" name="resolution" rows="4" required></textarea>
+                </div>
+
+                <div id="team-field" style="display: none;">
+                    <label for="team">Equipe de Encaminhamento:</label>
+                    <input type="text" id="team" name="team">
+                </div>
+
+                <div class="checkbox-group" onchange="scriptsFeitos()" required>
+                    <input type="radio" id="desbloqueio-sap" name="frases_comuns">
+                    <label for="Desbloqueio_Sap">Desbloqueio SAP </label>
+
+                    <input type="radio" id="reset-sap" name="frases_comuns">
+                    <label for="reset-sap">Reset Sap </label>
+
+                    <input type="radio" id="reset-rede" name="frases_comuns">
+                    <label for="Reset_Rede">Reset Rede</label>
+
+                    <input type="radio" id="desbloqueio-rede" name="frases_comuns">
+                    <label for="desbloqueio-rede">Desbloqueio Rede</label>
+                </div>
+
+                <button type="button" onclick="generateScript()">Gerar Script</button>
+            </form>
+
+            <div id="generated-script" class="generated-script"></div>
+            <button id="copy-button" onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+            <div></div>
+        </div>
+       
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="navbor">
+            <div class="footer-logo">
+                <a href="#"><img src="imagens/solutis_logo.png" alt="Logo"></a>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2024 CSC ELETROBRAS. Atualizado em: 04/08/2024.</p>                
+                </div>
+                <div></div>           
+        </div>
+
+    </footer>
+</body>
+</html>

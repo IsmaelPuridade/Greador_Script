@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocultar Radio Buttons</title>
+<script>
+function hideRadioButtons() {
+    var radios = document.getElementsByName('fraseologia');
+    for (var i = 0; i < radios.length; i++) {
+        radios[i].style.display = 'none';
+    }
+    document.getElementById('message').innerText = "Fraseologia selecionada!";
+}
+</script>
+</head>
+<body>
+<h3>Selecione a fraseologia de encaminhamento:</h3>
+<form>
+    <label><input type="radio" name="fraseologia" value="Opção 1" onclick="hideRadioButtons()"> Opção 1</label><br>
+    <label><input type="radio" name="fraseologia" value="Opção 2" onclick="hideRadioButtons()"> Opção 2</label><br>
+    <label><input type="radio" name="fraseologia" value="Opção 3" onclick="hideRadioButtons()"> Opção 3</label><br>
+</form>
+<p id="message"></p>
+</body>
+</html>
+
+
+<script>
+var radios = document.getElementsByClassName('checkbox-group');
+    for (var i = 0; i < radios.length; i++) {
+        radios[i].style.display = 'none';
+    }
+    
+    </script>
