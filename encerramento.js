@@ -25,7 +25,6 @@ function toggleFields() {
     }    
 
         
-    
 }
 
 function scriptsFeitos(){
@@ -122,5 +121,4 @@ function copyToClipboard() {
     document.body.removeChild(tempTextArea);
 
     // Alerta ao usuário que o texto foi copiado
-    alert('Script copiado para a área de transferência!');
-}
+    alert('Script copiado para a área de transferência!');}
