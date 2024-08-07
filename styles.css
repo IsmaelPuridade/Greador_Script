@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #eeebeb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e os links */
+    align-items: center; /* Alinha verticalmente o logo e os links */
+    background-color: #1B456B;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.logo img {
+    height: 50px; /* Defina a altura desejada */
+    width: auto; /* A largura ajusta automaticamente para manter a proporção */
+    padding: auto;
+}
+
+
+.nav-links {
+    display: flex; /* Exibe os links na horizontal */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Espaço entre os links */
+    font-size: 18px;
+    transition: color 0.3s; /* Transição suave na cor ao passar o mouse */
+}
+
+.nav-links a:hover {
+    color: #ddd; /* Cor dos links ao passar o mouse */
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    min-height: 80vh; /* Ajuste conforme necessário */
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.large-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as caixas menores */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px; /* Ajuste conforme necessário */
+}
+
+.small-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    /*border-radius: 8px;*/
+    flex: 1 1 200px; /* Ajuste a base para tamanho das caixas menores */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #1B456B;
+    transition: 0.7s;
+}
+.small-box:hover{
+    background-color: #1B456B;
+    color: white;
+
+}
+
+.icons_box{
+    height: 50px; /* Defina a altura desejada */
+    width: auto; /* A largura ajusta automaticamente para manter a proporção */
+
+}
+
+.Icone_Texto{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;    
+    flex: 1 1 200px; /* Ajuste a base para tamanho das caixas menores */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    color: aqua;
+
+
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo img {
+    height: 60px; /* Ajuste conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    padding: 15px
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ddd; /* Cor dos links ao passar o mouse */
+
+}
+
+.navbor{
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e os links */    
+    align-items: center; /* Alinha verticalmente o logo e os links */
+    background-color: #333333;
+    padding: 10px, 20px;
+    color: white;
+    height: 100px; ;
+
+}
