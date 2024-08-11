@@ -32,11 +32,11 @@ function generateScript() {
         // Obtém o valor do campo de entrada
         const linkCaptado = document.getElementById('link').value;
 
-        // Valida o campo de entrada
+        /*// Valida o campo de entrada
         if (!linkCaptado) {
             alert('Por favor, insira um link.');
             return;
-        }
+        }*/
         
         // Gera os links transformados
         const transformedLinks = transformLink(linkCaptado);
@@ -51,7 +51,7 @@ Link Externo: ${transformedLinks.linkExterno}
 
 Atenciosamente,
 
-Central de Atendimento do CSC
+Central de Relacionamento do CSC
 
 Atendimento 24h, 7 dias por semana
 WhatsApp: 0800 212 2999

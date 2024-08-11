@@ -80,8 +80,8 @@ Central de Relacionamento do CSC
 
 Atendimento 24h, 7 dias por semana
 Telefone: 0800 212 2999
-Aplicativo: https://crm-digital.eletrobras.gov.br/
-Chat: https://eletrobras.com/pt/SiteAssets/CSC/CSC_Chat_Eletrobras.pdf
+Chat: https://eletrobras-chat.digitalk.com.br/
+Aplicativo: https://crm-digital-app.eletrobras.gov.br/
         `;
     } else if (scriptType === 'encaminhamento') {
         script = `
@@ -95,8 +95,8 @@ Central de Relacionamento do CSC
 
 Atendimento 24h, 7 dias por semana
 Telefone: 0800 212 2999
-Aplicativo: https://crm-digital.eletrobras.gov.br/
-Chat: https://eletrobras.com/pt/SiteAssets/CSC/CSC_Chat_Eletrobras.pdf
+Chat: https://eletrobras-chat.digitalk.com.br/
+Aplicativo: https://crm-digital-app.eletrobras.gov.br/
         `;
     }
 
