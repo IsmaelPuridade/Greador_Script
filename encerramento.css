@@ -47,6 +47,8 @@ body {
 
 main {
     padding: 20px;
+    margin-bottom: 14%;
+    
 }
 
 .container {
@@ -109,15 +111,16 @@ button:hover {
 
 .generated-script {
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f9f9f9;
     
+    
 }
 
 
-/*.footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +131,7 @@ button:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-}*/
+}
 
 .footer-logo img {
     height: 60px; /* Ajuste conforme necessário */

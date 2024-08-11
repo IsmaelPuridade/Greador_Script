@@ -104,6 +104,13 @@ Chat: https://eletrobras.com/pt/SiteAssets/CSC/CSC_Chat_Eletrobras.pdf
     document.getElementById('generated-script').innerText = script;
 }
 
+// Adiciona ouvintes de eventos para chamar a função quando os campos mudarem
+const fields = document.querySelectorAll('#form input, #form select');
+fields.forEach(field => {
+    field.addEventListener('input', generateScript);
+});
+
+
 function copyToClipboard() {
     // Obtém o texto do script gerado
     const scriptText = document.getElementById('generated-script').innerText;

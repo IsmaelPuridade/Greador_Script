@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="requisicao.css">
+    <script src="requisicao.js"></script>
+    <title>Link Requisição</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">                
+                <img src="./imagens/bras-logo.png" alt="Logo Eletrobras">
+            </div>
+            <div class="titulo">
+                <h1>Gerador de Script</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="encerramento.html">Encerramento</a>
+                <a href="requisicao.html">Link Requisição</a>              
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Gerador de Script de Abertura de Requisição</h2>
+
+            <label class="link" for="link">LINK:</label>
+            <input type="text" id="link" name="link" required>
+
+            <div id="script-gerado" class="script-gerado"></div>
+            <button type="button" onclick="generateScript()">Gerar Script</button>
+            <button id="copy-button" onclick="copiarTexto()">Copiar para Área de Transferência</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="navbor">
+            <div class="footer-logo">
+                <a href="#"><img src="./imagens/solutis_logo.png" alt="Logo Solutis"></a>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2024 CSC ELETROBRAS. Atualizado em: 04/08/2024.</p>                
+            </div> 
+            <div></div>        
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #eeebeb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e os links */
+    align-items: center; /* Alinha verticalmente o logo e os links */
+    background-color: #1B456B;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.logo img {
+    height: 50px; /* Defina a altura desejada */
+    width: auto; /* A largura ajusta automaticamente para manter a proporção */
+    padding: auto;
+}
+
+
+.nav-links {
+    display: flex; /* Exibe os links na horizontal */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px; /* Espaço entre os links */
+    font-size: 18px;
+    transition: color 0.3s; /* Transição suave na cor ao passar o mouse */
+}
+
+.nav-links a:hover {
+    color: #ddd; /* Cor dos links ao passar o mouse */
+}
+
+
+.site-title h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 600px
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+select{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1B456B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.script-gerado {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+    
+}
+
+.script-gerado:empty{
+    display: none;
+}
+
+/*  ABAIXO ESTILO DO RODAPÉ*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    color: rgb(76, 76, 77);
+    padding: 20px;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo img {
+    height: 60px; /* Ajuste conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    padding: 15px
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ddd; /* Cor dos links ao passar o mouse */
+
+}
+
+.navbor{
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e os links */    
+    align-items: center; /* Alinha verticalmente o logo e os links */
+    background-color: #3f3f3f;
+    padding: 10px, 20px;
+    color: white;
+    height: 100px; ;
+    position: relative; 
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+}
