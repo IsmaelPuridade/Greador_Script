@@ -52,8 +52,6 @@ Link Externo: ${transformedLinks.linkExterno}
 Atenciosamente,
 
 Central de Relacionamento do CSC
-
-Central de Relacionamento do CSC
 Atendimento 24h, 7 dias por semana
 WhatsApp: 0800 212 2999
 Aplicativo:https://crm-digital-app.eletrobras.gov.br/

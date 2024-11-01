@@ -76,8 +76,6 @@ A tratativa adotada para a solução foi: ${resolutionText}. Pedimos que valide 
 
 Agradecemos seu contato e colaboração durante este processo. Em breve você receberá a pesquisa de satisfação em seu e-mail ou no campo “notificações” na página de abertura do catálogo digital. Contamos com sua participação para melhorarmos nossos atendimentos e serviços.
 
-
-
 Central de Relacionamento do CSC
 Atendimento 24h, 7 dias por semana
 WhatsApp: 0800 212 2999
