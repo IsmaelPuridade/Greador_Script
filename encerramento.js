@@ -76,12 +76,13 @@ A tratativa adotada para a solução foi: ${resolutionText}. Pedimos que valide 
 
 Agradecemos seu contato e colaboração durante este processo. Em breve você receberá a pesquisa de satisfação em seu e-mail ou no campo “notificações” na página de abertura do catálogo digital. Contamos com sua participação para melhorarmos nossos atendimentos e serviços.
 
-Central de Relacionamento do CSC
 
+
+Central de Relacionamento do CSC
 Atendimento 24h, 7 dias por semana
-Telefone: 0800 212 2999
-Chat: https://eletrobras-chat.digitalk.com.br/
-Aplicativo: https://crm-digital-app.eletrobras.gov.br/
+WhatsApp: 0800 212 2999
+Aplicativo:https://crm-digital-app.eletrobras.gov.br/
+Chat:BLiP Chat 
         `;
     } else if (scriptType === 'encaminhamento') {
         script = `
@@ -92,11 +93,10 @@ Este chamado pode ser consultado no CRM para verificar o andamento ou, caso pref
 Agradecemos a atenção e desejamos um excelente dia.
 
 Central de Relacionamento do CSC
-
 Atendimento 24h, 7 dias por semana
-Telefone: 0800 212 2999
-Chat: https://eletrobras-chat.digitalk.com.br/
-Aplicativo: https://crm-digital-app.eletrobras.gov.br/
+WhatsApp: 0800 212 2999
+Aplicativo:https://crm-digital-app.eletrobras.gov.br/
+Chat:BLiP Chat 
         `;
     }
 
