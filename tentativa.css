@@ -1,0 +1,184 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #eeebeb;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B456B;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    margin-bottom: 14%;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Formulário */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.form-row label {
+    width: 30%; /* Ajuste a largura do label conforme necessário */
+}
+
+.form-row input {
+    width: 65%; /* Ajuste a largura do input conforme necessário */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    background-color: #1B456B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Script Gerado */
+.generated-script {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo img {
+    height: 60px;
+    width: auto;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ddd;
+}
+
+/* Título do site */
+.site-title h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.navbor{
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e os links */    
+    align-items: center; /* Alinha verticalmente o logo e os links */
+    background-color: #333333;
+    padding: 10px, 20px;
+    color: white;
+    height: 100px; ;
+    position: relative; 
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+}

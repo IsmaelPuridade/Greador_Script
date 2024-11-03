@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tentativa.css">
+    <script src="tentativa.js"></script>
+    <link rel="shortcut icon" href="./imagens/Logo_icon.ico" type="image/x-icon">
+    <title>Tentativa de Contato</title>
+</head>
+<body>
+
+
+    <header>
+       <nav class="navbar">
+            <div class="logo">                
+                <img src="./imagens/bras-logo.png">
+            </div>
+                <div class="titulo">
+                    <title>Gerador de Script </title>
+                </div>
+            <div class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="encerramento.html">Encerramento</a>
+                <a href="requisicao.html">Link Requisição</a>               
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <main>
+
+        <div class="container">
+            <h2>Gerador de Script de Tentativa de contato</h2>
+            <form id="script-form">
+                <label for="script-type">Tipo de Script:</label>
+                <select id="script-type" name="script-type" onchange="toggleFields()" required>
+                    <option value="encerramento">Sem contato</option>
+                    <option value="encaminhamento">Encerramento</option>
+                </select>
+
+                <div class="form-row">
+                    <label for="client-name">Nome do Cliente:</label>
+                    <input type="text" id="client-name" name="client-name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="solicitacao">REQ:</label>
+                    <input type="text" id="solicitacao" name="Solicitacao" required>           
+                    <label for="data-abertura">Data da abertura:</label>
+                    <input type="date" id="data-abertura" name="data-abertura" required>
+                </div>
+                <div class="form-row">
+                    <label for="solicitacao">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="solicitacao">Telefone para contato:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="contact-date">Data Tentativa:</label>
+                    <input type="date" id="contact-date" name="contact-date" required>
+
+                    <label for="contact-time">Hora:</label>
+                    <input type="time" id="contact-time" name="contact-time" required>
+                </div>
+            
+
+
+
+                
+
+                <div id="resolution-field">
+                    <label for="resolution">Script Tentativa de Contato:</label>
+                    <textarea id="resolution" name="resolution" rows="4" required></textarea>
+                </div>
+
+                <div id="team-field" style="display: none;">
+                    <label for="team">Equipe de Encaminhamento:</label>
+                    <input type="text" id="team" name="team">
+                </div>
+
+             
+                <button type="button" onclick="generateScript()">Gerar Script</button>
+            </form>
+
+            <div id="generated-script" class="generated-script"></div>
+            <button id="copy-button" onclick="copyToClipboard()">Copiar para Área de Transferência</button>
+            <div></div>
+
+
+            
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="navbor">
+            <div class="footer-logo">
+                <a href="#"><img src="./imagens/solutis_logo.png" alt="Logo"></a>
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2024 CSC ELETROBRAS. Atualizado em: 04/08/2024.</p>                
+                </div>
+                <div></div>           
+        </div>
+
+    </footer>
+</body>
